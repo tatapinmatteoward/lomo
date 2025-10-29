@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vp-c-brand: #228B22;
+  --vp-c-brand-light: #FFD700;
+  --vp-c-brand-lighter: #FFD70022;
+  --vp-c-brand-dark: #228B22;
+  --vp-c-brand-darker: #228B22;
+}
+
+.vp-doc {
+  @apply max-w-none;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+}
+
+.hero-gradient {
+  @apply bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10;
+}
